@@ -25,11 +25,11 @@ function buscar1(ciudad,key){
             var tempActual = resultado.list[0].main.temp;
             var sensacionTer = resultado.list[0].main.feels_like;
             
-            document.getElementById('ciudadNom').textContent = nombreCiudad;  //ciudad que se despliega
-            document.getElementById('actualTemp').textContent = tempActual; //Temperatura actual centigrados
-            document.getElementById('sensacionT').textContent = sensacionTer; //sensacion terminca
+            document.getElementById('ciddNom').textContent = nomCiudad;  //ciudad que se despliega
+            document.getElementById('actTemp').textContent = tActual; //Temperatura actual centigrados
+            document.getElementById('senTe').textContent = senTer; //sensacion terminca
 
-            document.getElementById('textoCiudad').innerHTML = "Tiempo en la ciudad seleccionada";
+            document.getElementById('txtCiudad').innerHTML = "Tiempo en la ciudad ";
       });
 }
 
